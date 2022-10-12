@@ -1,0 +1,25 @@
+{
+  "name": "@tg-ui/tokens",
+  "version": "1.0.0",
+  "description": "",
+
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "dev": "tsup src/index.ts --format esm,cjs --dts --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+
+  "dependencies": {
+    "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "@tg-ui/ts-config": "*",
+    "tsup": "^6.2.3"
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "extends": "@tg-ui/ts-config/react.json",
+  "include": ["src"],
+}
