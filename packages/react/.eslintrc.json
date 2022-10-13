@@ -1,3 +1,7 @@
 {
-  "extends": "@tg-ui/eslint-config"
+  "extends": "@tg-ui/eslint-config",
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error"
+  }
 }
