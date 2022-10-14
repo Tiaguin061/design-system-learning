@@ -1,4 +1,4 @@
-import { Box, BoxProps } from "@tg-ui/react";
+import { Box, BoxProps, Text } from "@tg-ui/react";
 import { StoryObj, Meta } from "@storybook/react";
 
 export default {
@@ -7,7 +7,7 @@ export default {
   args: {
     children: (
       <>
-        <span>Testando o elemento box</span>
+        <Text>Testando o elemento box</Text>
       </>
     ),
   },
